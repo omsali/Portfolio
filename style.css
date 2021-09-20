@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+
+:root{
+    --primary-color: #4C1CAF;
+    --gray-white:#E5E7EB;
+    --white:#ffffff;
+    --dark-gray:#6B7280;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat',sans-serif;
+
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.container{
+    padding: 1rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5em 1em;
+    
+    margin:1rem 0.5rem;
+}
+
+.link-primary{
+    background-color:var(--primary-color) ;
+    color:var(--white);
+    border-radius: 0.5rem;
+}
+
+.link-secondary{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.list-non-bullet{
+    list-style-type: none;
+}
+
+.list-inline{
+    display: inline-block;
+}
+
+.navbar{
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem ;
+    border-top-left-radius:1rem ;
+    border-bottom-right-radius: 1rem;
+}
+
+.navbar .link{
+    padding: 0.5em;
+    color: var(--white);
+    
+}
+
+.nav-elements{
+    text-align: right;
+}
+
+.nav-brandname{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.navbar .link-active{
+    font-weight: 700;
+}
+
+.hero{
+    padding: 1rem;
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    font-size:3rem;
+    text-align: center;
+    color:var(--dark-gray) ;
+}
+
+.section{
+    padding: 1rem;
+  
+}
+
+.section h1{
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.section .section-offwhite-heading{
+    color: var(--primary-color);
+}
+
+.section-offwhite {
+    background-color: var(--gray-white);
+    border-radius: 0.5rem;
+}
+
+.footer{
+    background-color: black;
+    border-top-left-radius:1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+    color: var(--white);
+    
+}
+
+.footer-heading{
+    font-size: 1.5rem;
+    padding: 2rem 2rem;
+    font-weight: bolder;
+    text-align: left;
+    color: var(--white);
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+    
+
+}
+
+.footer li {
+   
+    margin-bottom: 1rem;
+    
+}
+
+.footer li a{
+    color: var(--white);
+}
