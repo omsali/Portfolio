@@ -95,6 +95,7 @@ hr{
 }
 
 .round{
+    max-width: 250px;
     border-radius: 50%;
 }
 
