@@ -94,6 +94,10 @@ hr{
     margin: auto;
 }
 
+.round{
+    border-radius: 50%;
+}
+
 .hero .hero-heading{
     font-size:3rem;
     text-align: center;
