@@ -18,6 +18,19 @@ hr{
     margin: 2rem 0rem;
 }
 
+.about-heading{
+    font-size:5rem;
+    font-weight: bold;
+    padding-left: 200px;
+    padding-top: 100px;
+    display: block;
+    color:var(--dark-gray) ;
+}
+
+.flex-block{
+    display: flex;
+}
+
 .container{
     padding: 1rem 1rem;
 }
@@ -57,26 +70,60 @@ hr{
     display: inline-block;
 }
 
+.list-block{
+    display: block;
+    margin: 0;
+    padding: 10px;
+}
+
+.list-centered1{
+    padding: 0px 40px 0px 30px;
+}
+
+.list-centered2{
+    padding: 0px 40px 0px 60px;
+}
+
+h3{
+    margin: 0px;
+}
+
+.side-block{
+    display: flex;
+    margin: auto;
+}
+
+.side-block-padding{
+    padding-left: 50px;
+}
+
 .navbar{
     background-color: var(--primary-color);
     color: var(--white);
     padding: 1rem ;
-    border-top-left-radius:1rem ;
+    border-bottom-left-radius:1rem ;
     border-bottom-right-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar .link{
-    padding: 0.5em;
+    padding: 0.5em; 
     color: var(--white);
     
 }
 
 .nav-elements{
     text-align: right;
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
 }
 
 .nav-brandname{
-    font-size: 1.4rem;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -91,6 +138,12 @@ hr{
 .hero .hero-img{
     max-width: 400px;
     display: block;
+    padding-left: 350px;
+}
+
+.hero-project-img{
+    max-width: 400px;
+    display: block;
     margin: auto;
 }
 
@@ -100,13 +153,16 @@ hr{
 }
 
 .hero .hero-heading{
+    margin-top: 60px;
     font-size:3rem;
     text-align: center;
-    color:var(--dark-gray) ;
+    color:var(--primary-color) ;
 }
 
+
+
 .section{
-    padding: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     min-height: 200px;
   
 }
@@ -123,6 +179,7 @@ hr{
 .section-offwhite {
     background-color: var(--gray-white);
     border-radius: 0.5rem;
+    padding-right: 2rem;
 }
 
 
@@ -163,4 +220,34 @@ hr{
     display: inline;
     
     padding: 0rem 1rem;
+    }
+
+    .heading-center{
+    text-align: center;    
+    }
+
+    .link-connect{
+        background-color: #4C1CAF;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact div{
+        margin: 50px 10px;
+        background-color: #4C1CAF;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+
+    ion-icon{
+        font-size: 8rem;
+        margin: 0;
+        padding-top: 35px;
+        color: white;
     }

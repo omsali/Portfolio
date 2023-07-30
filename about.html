@@ -1,128 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Om | Portfolio</title>
     <style>
-        .list-centered{
-            padding-left: 20%;
-            
-        }
+      .list-centered {
+        padding-left: 20%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar container">
-        <div class="nav-brandname">Om's | Portfolio</div>
-        <ul class="list-non-bullet nav-elements">
-            <li class="list-inline">
-                <a class="link" href="index.html">Home</a>
-            </li>
-            <li class="list-inline">
-                <a class="link" href="projects.html">Projects</a>
-            </li>
-<!--             <li class="list-inline">
+      <div class="nav-brandname">Om's | Portfolio</div>
+      <ul class="list-non-bullet nav-elements">
+        <li class="list-inline">
+          <a class="link link-active" href="about.html">Home</a>
+        </li>
+        <li class="list-inline">
+          <a class="link" href="projects.html">Projects</a>
+        </li>
+        <li class="list-inline">
+          <a class="link" href="index.html">Connect</a>
+        </li>
+        <!--             <li class="list-inline">
                 <a class="link" href="blogs.html">Blogs</a>
             </li> -->
-            <li class="list-inline">
-                <a class="link link-active" href="about.html">About</a>
-            </li>
-        </ul>
+      </ul>
     </nav>
 
-    <header class="hero">
-        <h1 class="hero-heading">About</h1>
-        <img class="hero-img round" src="about1-img.jpg" alt="">
-
+    <header class="hero flex-block">
+      <div class="about-heading">
+        <div>Learning</div>
+        <div>till</div>
+        <div>Oblivion</div>
+      </div>
+      <img class="hero-img round" src="about1-img.jpg" alt="" />
     </header>
 
-    <section class="section  container-center">
-        <h1>Who AM I</h1>
-        <p>I'm Om Ravindra Sali. A final year student pursuing BTech in Computer Engineering. I'm a web development enthusiast, Adaptive, Attentive, Punctual, Self-motivated student always greedy to gain new knowledge to know about new technologies, and new opportunities</p>
-            
+    <section class="section container-center">
+      <!-- <h1>Who AM I</h1> -->
+      <p>
+        I am Om Ravindra Sali, a Computer Science graduate with a passion for
+        web development. I am adaptive, attentive, and punctual, always eager to
+        learn about new technologies and seize new opportunities. Self-motivated
+        and constantly seeking knowledge to grow in my field.
+      </p>
     </section>
     <section class="section section-offwhite container container-center">
-        <h1 class="section-offwhite-heading">Skills</h1>
-        <ul class="list-centered">
-            <h3>Languages</h3>
+      <h1 class="section-offwhite-heading">Technical Skills</h1>
+      <ul class="list-centered side-block">
+        <div class="">
+          <ul class="list-block">
+            <h3 class="">Languages</h3>
+            <br />
             <li>C++</li>
             <li>C</li>
+            <li>Java</li>
             <!-- <li>Python basics</li> -->
-            <li>HTML, CSS, JS</li>
-            <h3>Libraries and Frameworks</h3>
-            <li>ReactJs</li>
-            <li>ExpressJs</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Python</li>
+          </ul>
+          <ul class="list-block">
             <h3>Concepts</h3>
+            <br />
             <li>OOPs</li>
-            <li>DSA</li>
-            <li>Basics of Computer Networks</li>
-            <li>Basics of Operating System</li>
-        </ul>
-           
+            <li>Data Structure and Algorithms</li>
+            <li>Computer Networks</li>
+            <li>Operating System</li>
+            <li>DBMS</li>
+          </ul>
+        </div>
+        <div class="side-block-padding">
+          <ul class="list-block">
+            <h3>Technologies</h3>
+            <br />
+            <li>ReactJs</li>
+            <li>NextJs</li>
+            <li>NodeJs</li>
+            <li>MongoDB</li>
+            <li>GraphQL</li>
+            <li>Git</li>
+            <li>BootStrap</li>
+            <li>Tailwind CSS</li>
+          </ul>
+          <ul class="list-block">
+            <h3>Development tools</h3>
+            <br />
+            <li>VSCode</li>
+            <li>Github</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+      </ul>
     </section>
-    <section class="section  container-center">
-        <h1>Certifications</h1>
-        <ul class="list-centered">
-            <li>Introduction to Internet of Things</li>
-            <li>Data Structure andalgorithm</li>
-            <li>The WebDeveloper Bootcamp 2021</li>
-            <!-- <li>To add Value to the world</li> -->
-        </ul>
-            
+    <section class="section container container-center">
+      <h1>Projects</h1>
+      <p>
+        Web development is intresting, I Love to play with websites, create
+        websites, make it fun to the users. These are my projects which will
+        showcase my skills in web development.
+      </p>
+      <div >
+        <a class="link link-primary link-center" href="projects.html"
+          >View Projects</a>
+      </div>
+    </section>
+    <section class="section section-offwhite container-center">
+      <h1 class="section-offwhite-heading">Achivements and Certifications</h1>
+      <ul class="list-centered2">
+        <li>
+          Secured <b>1st place </b> out of 400 students in a college-wide coding
+          competition, <b>Coding Battle</b> Sanjivani COE
+        </li>
+        <li>
+          NPTEL, <b> Data Structures and algorithm using JAVA certified </b>
+        </li>
+        <li>Udemy,<b> Full Stack Web Development certified </b></li>
+        <li>Coursera,<b> Python for Everybody certified </b></li>
+        <!-- <li>To add Value to the world</li> -->
+      </ul>
     </section>
 
-    <section class="section section-offwhite container container-center">
-        <h1 class="section-offwhite-heading">Publications</h1>
-        <ul>
-            <!-- <h3>Publications</h3> -->
-            <li>Patent #202221028777, filied on [03/06/2022] in the IPR office, India
-                <ul class="list-centered"> 
-                    <br>
-                    <li><b>A Smart Helmet with Notification System using IoT</b></li>
-               </ul>
-            </li>
-            <br>
-            <li>Research paper presented in ANTIC-2022 International Conference, Varanasi
-                <ul class="list-centered"> 
-                    <br>
-                    <li><b>Social Media Bot Detection using Machine Learning Approach</b></li>
-               </ul>
-            </li>
+    <section class="section container container-center">
+      <h1>Publications</h1>
+      <ul>
+        <!-- <h3>Publications</h3> -->
+        <h3>Patent</h3>
+        <ul class="list-centered1">
+          <br />
+          <li>
+            Filed a patent for
+            <b
+              >"A Smart helmet with notification system using Internet of
+              Things"</b
+            >
+            <b>(#202221028777)</b> on <b>[03/06/2022] </b> in the Intellectual
+            Property Rights Office, India.
+          </li>
         </ul>
+        <br />
+        <h3>Research Paper</h3>
+        <ul class="list-centered1">
+          <br />
+          <li>
+            Published a Research titled
+            <b>"Social Media Bot Detection using Machine Learning Approach"</b>
+            at ANTIC(Advanced Network Technologies and Intelligent Computing) -
+            2022 International Conference held on Dec 22 - 24, 2023
+          </li>
+        </ul>
+      </ul>
     </section>
-    <section class="section  container-center">
-        <h1>Aim</h1>
-        <ul class="list-centered">
-            <li>To educate people by sharing my experience</li>
-            <li>To add Value to the world</li>
-        </ul>
-            
+    <section class="section section-offwhite container-center">
+      <h1 class="section-offwhite-heading">Aim</h1>
+      <ul class="list-centered">
+        <li>To educate people by sharing my experience</li>
+        <li>To add Value to the world</li>
+      </ul>
     </section>
 
     <footer class="footer">
-        <div class="footer-div">Connect with me on Socials</div>
-        <ul class="footer-lists">
-            <li class="list-inline ">
-                <a class=" links footer-links" href="https://twitter.com/OmSali14" target="_blank">
-                    <ion-icon size="large" name="logo-twitter"></ion-icon>
-                </a>
-            </li>
-            <li class="list-inline ">
-                <a class="links footer-links" href="https://github.com/omsali" target="_blank">
-                    <ion-icon size="large" name="logo-github"></ion-icon>
-                </a>
-            </li>
-            <li class="list-inline ">
-                <a class="links footer-links" href="https://www.linkedin.com/in/om-sali-789a241a2/" target="_blank">
-                    <ion-icon size="large" name="logo-linkedin"></ion-icon>
-                </a>
-            </li>
-        </ul>
+      <div class="footer-div">Connect with me on Socials</div>
+      <ul class="footer-lists">
+        <li class="list-inline">
+          <a
+            class="links footer-links"
+            href="https://twitter.com/OmSali14"
+            target="_blank"
+          >
+            <ion-icon size="large" name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li class="list-inline">
+          <a
+            class="links footer-links"
+            href="https://github.com/omsali"
+            target="_blank"
+          >
+            <ion-icon size="large" name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li class="list-inline">
+          <a
+            class="links footer-links"
+            href="https://www.linkedin.com/in/om-sali-789a241a2/"
+            target="_blank"
+          >
+            <ion-icon size="large" name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+      </ul>
     </footer>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
